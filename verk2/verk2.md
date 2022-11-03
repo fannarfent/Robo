@@ -67,3 +67,28 @@ int main() {
   }
   
 }
+
+# seinni hluti
+
+## kóði
+
+#include "vex.h"
+using namespace vex;
+int main() {
+  // Initializing Robot Configuration. DO NOT REMOVE!
+  vexcodeInit();
+  int turnlist[14] ={90,-90,-90,90,90,-90,90,90,-90,90,90,-90,-90,90};
+
+  for(int i = 0; i <= 14; i++){
+      Drivetrain.driveFor(forward, 500, mm);
+      Drivetrain.turnFor(turnlist[i],deg);
+        if (BumperH.pressing()){
+            break;
+         }
+    }
+  
+
+
+  }
+## video
+[video B hluti](https://youtube.com/shorts/Wo9W3mmdeCo?feature=share)
