@@ -10,13 +10,13 @@ using namespace vex;
   vexcodeInit();
 
   while (true) {
-    if (LightD.brightness() > 0 && LightD.brightness() < 50) {
+    if (LightD.brightness() > 0 && LightD.brightness() < 70) {
       Brain.Screen.clearScreen();
       Brain.Screen.setCursor(1, 1);
       Brain.Screen.print("Dark Area");
       Drivetrain.setStopping(brake);
     } 
-    else if (LightD.brightness() >= 50) {
+    else if (LightD.brightness() >= 70) {
       Brain.Screen.clearScreen();
       Brain.Screen.setCursor(1, 1);
       Brain.Screen.print("Light Area");
