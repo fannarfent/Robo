@@ -1,9 +1,7 @@
-
-
-Dingull — Today at 12:18
+# verk 3_A
 #include "vex.h"
 
-# verk 3_A
+
 
 using namespace vex;
 
