@@ -1,4 +1,5 @@
 # verk 3_A
+[video A hluti](https://youtube.com/shorts/opc_RMykJVc?feature=share)
 #include "vex.h"
 
 
