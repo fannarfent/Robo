@@ -1,4 +1,5 @@
 [video A hluti](https://youtube.com/shorts/2JgkZyLLOJg?feature=share)
+```
 ## #include "vex.h"
 
 using namespace vex;
@@ -67,11 +68,11 @@ int main() {
   }
   
 }
-
+```
 # seinni hluti
 
-## kóði
-
+## C++
+```
 #include "vex.h"
 using namespace vex;
 int main() {
@@ -90,5 +91,6 @@ int main() {
 
 
   }
+  ```
 ## video
 [video B hluti](https://youtube.com/shorts/Wo9W3mmdeCo?feature=share)
