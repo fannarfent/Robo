@@ -1,7 +1,8 @@
 # verk 3_A
 [video A hluti](https://youtube.com/shorts/opc_RMykJVc?feature=share)
-#include "vex.h"
 
+```
+#include "vex.h"
 
 
 using namespace vex;
@@ -38,8 +39,10 @@ using namespace vex;
     wait(5, msec);
 
       }
+```
 # verk3_B hluti
 [video B hluti](https://youtube.com/shorts/yze2KHnd2Ek?feature=share)
+```
 # kóði 
 #include "vex.h"
 
@@ -103,3 +106,4 @@ int main() {
     wait(1, seconds);
   }
 }
+```
