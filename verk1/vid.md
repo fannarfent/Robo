@@ -1,6 +1,7 @@
-## #include "vex.h"
-
-## using namespace vex;
+#C++
+```
+#include "vex.h"
+using namespace vex;
 
 ## int main() {
  ## // Initializing Robot Configuration. DO NOT REMOVE!
@@ -12,8 +13,9 @@
   ##  Drivetrain.driveFor(reverse, 500 * i, mm);
   ## }
 ## }
-
+```
 [video 1](https://youtube.com/shorts/3679Zcdfc90?feature=share)
+```
 ## #include "vex.h"
 
 ## using namespace vex;
@@ -56,4 +58,6 @@
 
   
 ## }
+```
+
 [video 2](https://youtube.com/shorts/DawVwXNhzrE?feature=share)
