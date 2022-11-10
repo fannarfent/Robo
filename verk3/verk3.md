@@ -38,3 +38,68 @@ using namespace vex;
     wait(5, msec);
 
       }
+# verk3_B hluti
+[video B hluti](https://youtube.com/shorts/yze2KHnd2Ek?feature=share)
+# kóði 
+#include "vex.h"
+
+using namespace vex;
+
+event checkRed = event();
+event checkBlue = event();
+event checkGreen = event();
+
+void hasBlueCallback() {
+  Brain.Screen.setFont(mono40);
+  Brain.Screen.clearLine(1, black);
+  Brain.Screen.setCursor(Brain.Screen.row(), 1);
+  Brain.Screen.setCursor(1, 1);
+  Vision19.takeSnapshot(Vision19__BLUEBOX);
+  if (Vision19.objectCount > 0) {
+    Brain.Screen.print("Blue Object Found");
+  } else {
+    Brain.Screen.print("No Blue Object");
+  }
+}
+
+void hasRedCallback() {
+  Brain.Screen.setFont(mono40);
+  Brain.Screen.clearLine(3, black);
+  Brain.Screen.setCursor(Brain.Screen.row(), 1);
+  Brain.Screen.setCursor(3, 1);
+  Vision19.takeSnapshot(Vision19__REDBOX);
+  if (Vision19.objectCount > 0) {
+    Brain.Screen.print("Red Object Found");
+  } else {
+    Brain.Screen.print("No Red Object");
+  }
+}
+
+void hasGreenCallback() {
+  Brain.Screen.setFont(mono40);
+  Brain.Screen.clearLine(5, black);
+  Brain.Screen.setCursor(Brain.Screen.row(), 1);
+  Brain.Screen.setCursor(5, 1);
+  Vision19.takeSnapshot(Vision19__GREENBOX);
+  if (Vision19.objectCount > 0) {
+    Brain.Screen.print("Green Object Found");
+  } else {
+    Brain.Screen.print("No Green Object");
+  }
+}
+
+int main() {
+  // Initializing Robot Configuration. DO NOT REMOVE!
+  vexcodeInit();
+
+  checkBlue(hasBlueCallback);
+  checkRed(hasRedCallback);
+  checkGreen(hasGreenCallback);
+  
+  while (true) {
+    checkBlue.broadcastAndWait();
+    checkRed.broadcastAndWait();
+    checkGreen.broadcastAndWait();
+    wait(1, seconds);
+  }
+}
