@@ -108,7 +108,7 @@ int main() {
 }
 ```
 # verk3_C
-[video B hluti](https://youtube.com/shorts/lJ0PYOnbic4?feature=share)
+[video C hluti](https://youtube.com/shorts/lJ0PYOnbic4?feature=share)
 ```
 #include "vex.h"
 
