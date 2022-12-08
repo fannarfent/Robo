@@ -4,3 +4,5 @@
 ## 2 mótorar eru notaðir til að keyra vélmennið og beygja, hinnir tveir eru notaðir til að færa klóina upp og niður og síðan opna og loka henni.
 # Mynd af flæði og hönnun þrautar
 ![mynd af flæðiriti og hönnun brautar](https://github.com/fannarfent/Robo/blob/main/lokaverk/lokaverk.png)
+# mynd af flæðiritiverkefnis
+![mynd af flæðiriti og hönnun brautar](https://github.com/fannarfent/Robo/blob/main/lokaverk/fl%C3%A6%C3%B0i%20lokaverk.drawio.png)
