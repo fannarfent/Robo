@@ -6,3 +6,5 @@
 ![mynd af flæðiriti og hönnun brautar](https://github.com/fannarfent/Robo/blob/main/lokaverk/lokaverk.png)
 # mynd af flæðiritiverkefnis
 ![mynd af flæðiriti og hönnun brautar](https://github.com/fannarfent/Robo/blob/main/lokaverk/fl%C3%A6%C3%B0i%20lokaverk.drawio.png)
+## Mynd af Robotinum
+<img src="https://github.com/fannarfent/Robo/blob/main/lokaverk/robot.PNG" alt="mynd af robot" width="400"/>
